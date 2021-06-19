@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="right">
                 <h1>Let's Talk</h1>
                 
-                <form methond="POST" onSubmit={handleSubmit}>
+                <form >
                     
                         
                         <input type="text" placeholder="Full Name" value={name} onChange={(e) => {
@@ -52,7 +52,7 @@ const Contact = () => {
 
         </div>
 
-        <script src="https://smtpjs.com/v3/smtp.js" ></script>
+        
         </>
     )
 }
