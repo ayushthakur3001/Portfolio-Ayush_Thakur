@@ -19,6 +19,7 @@
         width: 100%;
         height: 80%;
         display: flex;
+        
     
     justify-content: center;
     align-items: center;
@@ -90,12 +91,17 @@
             }
 
         }
+        a{
+            color: black;
+            text-decoration: underline;
+            text-decoration-color: crimson;
+        }
 
         .center{
             padding: 10px;
             background-color: rgb(247, 231, 234);
             border-radius: 10px;
-
+            text-align: center;
             @include mobile{
                 font-size: 12px;
                 padding: 5px;
@@ -106,6 +112,7 @@
             justify-self: center;
             flex-direction: column;
             align-items: center;
+            
 
             h3{
                 margin-bottom: 5px;

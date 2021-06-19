@@ -7,8 +7,10 @@ const Code = () => {
             name: "HackerRank",
             img: "./assets/hackerrank.png",
             icon: "./assets/linked.png",
-            desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            desc:"5⭐-> Problem Solving ",
             feature: false,
+            link:'https://www.hackerrank.com/ayushthakur3001'
+            
 
         },
         {
@@ -17,8 +19,9 @@ const Code = () => {
             name: "Codechef",
             img: "./assets/chef.png",
             icon: "./assets/linked.png",
-            desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            feature: "true",
+            desc:"3⭐ Max Rating->1682",
+            feature: true,
+            link:"https://www.codechef.com/users/ayushthakur001"
 
         },
         {
@@ -26,8 +29,9 @@ const Code = () => {
             name: "Geeks For Geeks",
             img: "./assets/gfg.png",
             icon: "./assets/linked.png",
-            desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            desc:"150+ Problems Solved in ->Linked List,Stack and Queues, Array, Strings",
             feature: false,
+            link:"https://auth.geeksforgeeks.org/user/ayushthakur3001"
 
         },
     ]
@@ -41,20 +45,26 @@ const Code = () => {
             
                 <div className={d.feature ? "card feature" : "card" }>
                     <div className="top">
-                        <img src="./assets/arro1.png" alt="" className="left" />
+                        <img src="./assets/arro1.png" alt="im." className="left" />
                         <img src={d.img} alt="" className="user" />
                         <img src={d.icon} alt="img.." className="right" />
                     </div>
                     <div className="center">
                     {d.desc}
                     </div>
+                    <a href={d.link}>
                     <div className="bottom">
                         <h3>{d.name}</h3>
                         
                     </div>
+                    </a>
                 </div>
+            
+
                 ))}
+                
             </div>
+            
         </div>
     )
 }
