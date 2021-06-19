@@ -45,7 +45,9 @@ const Contact = () => {
                     
                 </form>
                 <button className="btn" onClick={handleSubmit}   >Send</button>
+                <div className="bot">
                 {msg && <span>Thanks, I'll reply ASAP </span>}
+                </div>
                 
 
             </div>

@@ -13,6 +13,9 @@
             width: 100%;
             
         }
+        @include mobile{
+            display: 0;
+        }
         
 
         
@@ -44,7 +47,7 @@
                 width: 300px;
                 display: flex;
                 justify-content: center;
-                margin-top: 50px;
+                margin-top: 30px;
                 font-size: 20px;
                 border-radius: 5px;
                 outline: none;
@@ -79,13 +82,12 @@
 
 
             }
-
-            span{
+            .bot{
                 color: green;
-                position: absolute;
-                top: 100px;
-                right: 100px;
+                padding: 3px;
+                
             }
+            
     
         
         
