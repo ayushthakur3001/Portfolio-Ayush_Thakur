@@ -8,7 +8,7 @@ const Skills = () => {
     const dat = [
         {
             id: "1",
-            icon: "./assets/calculator.png",
+            icon: "./assets/calicon.png",
             title: "Calculator",
             l1: "Calculator App with mode change feature.",
             l2:"  'Light' ,'Dark' & 'Glass' mode using CSS.",
@@ -21,7 +21,7 @@ const Skills = () => {
 
         {
             id: "2",
-            icon: "./assets/weather.png",
+            icon: "./assets/weather.jpg",
             title: "Weather App",
             l1: " API based Weather App.",
             l2:"API (Application Programming Interface).",

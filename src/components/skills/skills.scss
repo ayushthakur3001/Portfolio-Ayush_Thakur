@@ -97,16 +97,15 @@
             .imgContainer{
                 width: 80px;
                 height: 80px;
-                background-color: lightseagreen;
                 display: flex;
                 align-items: center;
                 justify-content: center;
             }
 
             img{
-                width: 75px;
+                width: 80px;
                 @include mobile{
-                    width: 30px;
+                    width: 40px;
                     
                 }
             }
@@ -148,10 +147,11 @@
                 li{
                     font-size: 18px;
                     list-style-type: circle;
-                    padding: 4px;
+                    padding: 14px;
                     color: rgb(41, 39, 39);
                     @include mobile{
                         font-size: 15px;
+                        padding: 4px;
                         padding-top: 8px;
                         
                     }
