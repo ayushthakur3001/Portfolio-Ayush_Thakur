@@ -2,6 +2,7 @@ import './code.scss'
 const Code = () => {
 
     const data = [
+        
         {
             id: 1,
             name: "HackerRank",
@@ -24,12 +25,13 @@ const Code = () => {
             link:"https://www.codechef.com/users/ayushthakur001"
 
         },
+        
         {
             id: 3,
             name: "Geeks For Geeks",
             img: "./assets/gfg.png",
             icon: "./assets/linked.png",
-            desc:"150+ Problems Solved in ->Linked List,Stack and Queues, Array, Strings",
+            desc:"150+ Problems Solved on -->Linked List,Stack and Queues, Array, Strings",
             feature: false,
             link:"https://auth.geeksforgeeks.org/user/ayushthakur3001"
 

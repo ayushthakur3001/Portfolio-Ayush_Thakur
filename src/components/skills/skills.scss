@@ -73,7 +73,7 @@
             }
 
             .left{
-                flex: 4;
+                flex: 3;
                 height: 80%;
                 display: flex;
                 justify-content: center;
@@ -84,6 +84,7 @@
                 width: 90%;
                 height: 70%;
                 display: flex;
+                align-items: center;
                 flex-direction: column;
                 justify-content: space-between;
                 @include mobile{
@@ -94,10 +95,9 @@
             }
 
             .imgContainer{
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;
-                background-color: rgb(238, 155, 125);
+                width: 80px;
+                height: 80px;
+                background-color: lightseagreen;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -115,6 +115,9 @@
 
             h2{
                 font-size: 20px;
+                text-align: center;
+                color: crimson;
+                background-color: rgb(240, 224, 224);
                 @include mobile{
                     font-size: 15px;
                     
@@ -122,13 +125,7 @@
 
                 
             }
-            p{
-                font-size: 13px;
-                @include mobile{
-                    display: none;
-                    
-                }
-            }
+            
             span{
                 font-size: 12px;
                 font-weight: 600;
@@ -139,16 +136,27 @@
             .right{
                 flex: 8;
                 height: 100%;
+                text-align: center;
                 display: flex;
-                justify-content: center;
                 align-items: center;
-                overflow: hidden;
-
-                img{
-                    width: 300px;
-                    transform: rotate(-10deg);
-                    
+                justify-content: center;
+                
+                
+                &::-webkit-scrollbar{
+                    display: none;
                 }
+                li{
+                    font-size: 18px;
+                    list-style-type: circle;
+                    padding: 4px;
+                    color: rgb(41, 39, 39);
+                    @include mobile{
+                        font-size: 15px;
+                        padding-top: 8px;
+                        
+                    }
+                }
+                
                 
             }
 

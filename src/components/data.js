@@ -17,6 +17,13 @@ export const web = [
         img: "./assets/clg.png",
         link:" https://ayushthakur3001.github.io/UiitSite/"
     },
+    {
+        id: 4,
+        title: "Calculator",
+        img: "./assets/calculator.png",
+        link:" https://ayushthakur3001.github.io/Calculator/"
+    },
+    
     
 ];
 
