@@ -5,6 +5,7 @@
 
     .left{
         flex: 1;
+        overflow: hidden;
         @include mobile{
             flex: 0;
         }
@@ -26,6 +27,7 @@
         flex-direction: column;
         align-items: center;
         background: none;
+        overflow: hidden;
         
 
         @include mobile{
@@ -43,7 +45,7 @@
         }    
         label{
             position: absolute;
-            margin-top: 30px;
+            margin-top: 10px;
             
         }
 
@@ -51,7 +53,7 @@
                 width: 300px;
                 display: flex;
                 justify-content: center;
-                margin-top: 50px;
+                margin-top: 30px;
                 font-size: 20px;
                 border-radius: 5px;
                 outline: none;
@@ -68,6 +70,7 @@
                 width: 100px;
                 height: 25px;
                 margin-top: 6px;
+                margin-left: 100px;
                 background-color: rgb(220, 238, 247);
                 color: black;
                 border-radius: 4px;

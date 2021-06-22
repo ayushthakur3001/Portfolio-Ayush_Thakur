@@ -14,7 +14,7 @@ setMenuOpen(false)
                     <a href="#project">Projects</a>
                 </li>
                 <li  onClick={clos}>
-                    <a href="#skills">Skills</a>
+                    <a href="#skills">Works</a>
                 </li>
                 <li  onClick={clos}>
                     <a href="#code">Coding .Pro</a>
