@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.scss'
-import spiral from '../assets/spiral.png'
+
 
 function About() {
     return (
@@ -8,7 +8,7 @@ function About() {
             <div className="left">
                 <h1>About Me</h1>
                 <div className="imgContainer">
-                    <img src={spiral} alt="img.." />
+                    <img src="assets/spiral.png" alt="img.." />
                 </div>
                 <div className="container">
                     

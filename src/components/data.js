@@ -1,14 +1,16 @@
+
+
 export const web = [
     {
         id: 1,
         title: "Weather App",
-        img: "./assets/weather.jpg",
+        img: "../assets/weather.jpg",
         link:" https://ayushthakur3001.github.io/LiveWeather/"
     },
     {
         id: 2,
         title: "Facebook Clone",
-        img: "./assets/facebook.png",
+        img: "../assets/facebook.png",
         link:" https://ayushthakur3001.github.io/LiveWeather/"
     },
     {
