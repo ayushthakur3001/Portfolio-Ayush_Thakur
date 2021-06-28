@@ -29,7 +29,7 @@ const Intro = () => {
                 <h3> <span ref={textRef}></span></h3>
 
             </div>
-            <a href="#project">
+            <a href="#about">
                 <ExpandMoreIcon className="downArrow" />
             </a>
             </div>
