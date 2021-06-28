@@ -13,6 +13,10 @@ setMenuOpen(false)
                 <li onClick={clos}>
                     <a href="#about">About Me</a>
                 </li>
+                <li className="forMobile" onClick={clos}>
+                    <a href="#myskill">Skills</a>
+                </li>
+
                 <li  onClick={clos}>
                     <a href="#project">Projects</a>
                 </li>

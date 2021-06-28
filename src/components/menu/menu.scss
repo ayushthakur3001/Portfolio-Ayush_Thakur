@@ -26,6 +26,13 @@
         color: white;
         width: 60%;
 
+        .forMobile{
+            display: none;
+            @include mobile{
+                display: flex;
+            }
+        }
+
         li{
             margin-bottom: 30px;
             border-top: 2px solid $mainColor;

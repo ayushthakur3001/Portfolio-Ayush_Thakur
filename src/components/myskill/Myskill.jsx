@@ -1,8 +1,9 @@
 import React from 'react'
+import './myskill.scss'
 
 function Myskill() {
     return (
-        
+        <div className="myskill" id="myskill" >
             <div className="right">
                 <h1>My Skills</h1>
                 <div className="skill">
@@ -26,6 +27,7 @@ function Myskill() {
                     </li>
                 </div>
 
+            </div>
             </div>
 
         

@@ -11,9 +11,7 @@
         background-color: #333;
         border-radius: 0 70px;
 
-        @include mobile{
-            display: none;
-        }
+        
 
         h1{
             color: white;
@@ -67,6 +65,9 @@
         text-transform: capitalize;
         overflow: hidden;
         border-radius: 70px 0;
+        @include mobile{
+            display: none;
+        }
         
 
         h1{
@@ -119,24 +120,25 @@
                 }
                 .html{
                     width: 90%;
-                    animation: html 3s;
+                    animation: html infinite 10s;
                 }
                 
                 .css{
                     width: 70%;
-                    animation: css 3s;
+                    animation: css infinite 10s;
                 }
                 .react{
-                    width: 73%;
-                    animation: react 3s;
+                    width: 78%;
+                    
+                    animation: react infinite 10s;
                 }
                 .javascript{
                     width: 60%;
-                    animation: javascript 3s;
+                    animation: javascript infinite 10s;
                 }
                 .cplus{
                     width: 80%;
-                    animation: cplus 3s;
+                    animation: cplus infinite 10s;
                 }
 
     
