@@ -1,0 +1,197 @@
+@import '../../global.scss';
+
+.about{
+    background-color: white;
+    display: flex;
+
+    .left{
+        flex: 1;
+        background-color: white;
+        flex-direction: column;
+        background-color: #333;
+        border-radius: 0 70px;
+
+        @include mobile{
+            display: none;
+        }
+
+        h1{
+            color: white;
+            
+        }
+        .imgContainer{
+            position: absolute;
+            margin-top: 72px;
+            margin-right: 400px;
+            @include mobile{
+                margin-right: 300px;
+                margin-top: 80px;
+            }
+            img{
+                width: 390px;
+                height: 400px;
+            }
+        }
+        .container{
+            width: 400px;
+            height: 400px;
+            margin-top: 30px;
+            text-align: start;
+            background-color: white;
+            border-radius: 0px 20px 20px 0px;
+            box-shadow: 1px 1px 3px black;
+            overflow: hidden;
+            @include mobile{
+                width: 300px;
+                
+            }
+
+            p{
+                font-size: 22px;
+                padding-left: 20px;
+                padding-bottom: 10px;
+            }
+            span{
+                color: crimson;
+            }
+
+            
+
+        }
+    }
+
+    .right{
+        flex: 1;
+        list-style: none;
+        background-color: #333;
+        text-transform: capitalize;
+        overflow: hidden;
+        border-radius: 70px 0;
+        
+
+        h1{
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+        h3{
+            margin: 5px;
+        }
+        .skill{
+            width: 580px;
+            height: 420px;
+            margin: 10px auto;
+            color: #fff;
+            padding: 20px;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25)
+            , 0 10px 10px rgba(0,0,0,0.22);
+
+            p{
+                text-decoration: underline orange 6px;
+            }
+
+            li{
+                width: 500px;
+                margin: 5px 0;
+                padding: 8px;
+                @include mobile{
+                    width: 300px;
+                }
+            }
+
+            .bar{
+                background: #353b48;
+                display: block;
+                height: 15px;
+                border: 1px solid rgba(0,0,0,0.3);
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12)
+                , 0 1px 2px rgba(0,0,0,0.24);
+                transition: all 0.3s cubic-bezier(.25, .8,.25,1);
+
+                span{
+                    height: 15px;
+                    float: left;
+                    background: linear-gradient(135deg, rgba(236, 0, 140, 1)
+                    0%, rgba(252, 103, 103, 1)100%);
+
+                }
+                .html{
+                    width: 90%;
+                    animation: html 3s;
+                }
+                
+                .css{
+                    width: 70%;
+                    animation: css 3s;
+                }
+                .react{
+                    width: 73%;
+                    animation: react 3s;
+                }
+                .javascript{
+                    width: 60%;
+                    animation: javascript 3s;
+                }
+                .cplus{
+                    width: 80%;
+                    animation: cplus 3s;
+                }
+
+    
+                
+            }
+            .bar:hover{
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25)
+                , 0 10px 10px rgba(0,0,0,0.22);
+    
+            }
+        }
+        
+        
+        
+        
+        @keyframes cplus {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 80%;
+            }
+
+            
+        }
+        
+        @keyframes css {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 70%;
+            }
+
+            
+        }
+        @keyframes react {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 70%;
+            }
+
+            
+        }
+        @keyframes javascript {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 60%;
+            }
+
+            
+        }
+    }
+}

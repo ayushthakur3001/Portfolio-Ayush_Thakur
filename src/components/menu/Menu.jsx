@@ -10,6 +10,9 @@ setMenuOpen(false)
                 <li onClick={clos}>
                     <a href="#intro">Home</a>
                 </li>
+                <li onClick={clos}>
+                    <a href="#about">About Me</a>
+                </li>
                 <li  onClick={clos}>
                     <a href="#project">Projects</a>
                 </li>
@@ -21,7 +24,7 @@ setMenuOpen(false)
                 </li>
                 
                 <li onClick={clos} >
-                    <a href="#contact">Contact Me</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>

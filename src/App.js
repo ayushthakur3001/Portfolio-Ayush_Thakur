@@ -5,6 +5,8 @@ import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
 import Menu from './components/menu/Menu'
 import Code from './components/coding/Code'
+import About from './components/aboutme/About'
+import Myskill from './components/myskill/Myskill'
 import './app.scss'
 import {useState} from 'react'
 
@@ -16,6 +18,8 @@ const App = () => {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro/>
+        <About/>
+        {/* <Myskill/> */}
         <Project/>
         <Skills/>
         <Code/>

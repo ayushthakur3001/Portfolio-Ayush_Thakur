@@ -10,7 +10,9 @@ const Code = () => {
             icon: "./assets/linked.png",
             desc:"5⭐-> Problem Solving ",
             feature: false,
-            link:'https://www.hackerrank.com/ayushthakur3001'
+            link:'https://www.hackerrank.com/ayushthakur3001',
+            ilink:"https://www.linkedin.com/company/hackerrank/"
+
             
 
         },
@@ -22,7 +24,8 @@ const Code = () => {
             icon: "./assets/linked.png",
             desc:"3⭐ Max Rating->1682",
             feature: true,
-            link:"https://www.codechef.com/users/ayushthakur001"
+            link:"https://www.codechef.com/users/ayushthakur001",
+            ilink:"https://www.linkedin.com/company/codechef/"
 
         },
         
@@ -33,7 +36,8 @@ const Code = () => {
             icon: "./assets/linked.png",
             desc:"150+ Problems Solved on -->Linked List,Stack and Queues, Array, Strings",
             feature: false,
-            link:"https://auth.geeksforgeeks.org/user/ayushthakur3001"
+            link:"https://auth.geeksforgeeks.org/user/ayushthakur3001",
+            ilink:"https://www.linkedin.com/company/geeksforgeeks/"
 
         },
     ]
@@ -48,8 +52,12 @@ const Code = () => {
                 <div className={d.feature ? "card feature" : "card" }>
                     <div className="top">
                         <img src="./assets/arro1.png" alt="im." className="left" />
+                        
                         <img src={d.img} alt="" className="user" />
+                        
+                        <a href={d.ilink}>
                         <img src={d.icon} alt="img.." className="right" />
+                        </a>
                     </div>
                     <div className="center">
                     {d.desc}
