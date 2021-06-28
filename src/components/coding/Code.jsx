@@ -6,8 +6,8 @@ const Code = () => {
         {
             id: 1,
             name: "HackerRank",
-            img: "../assets/hackerrank.png",
-            icon: "../assets/linked.png",
+            img: "./assets/hackerrank.png",
+            icon: "./assets/linked.png",
             desc:"5⭐-> Problem Solving ",
             feature: false,
             link:'https://www.hackerrank.com/ayushthakur3001',
