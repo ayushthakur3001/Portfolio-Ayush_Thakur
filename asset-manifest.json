@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Ayush_Thakur/static/css/main.b71ac8dd.chunk.css",
+    "main.css": "/Portfolio-Ayush_Thakur/static/css/main.668f8c8b.chunk.css",
     "main.js": "/Portfolio-Ayush_Thakur/static/js/main.4f9aa621.chunk.js",
     "main.js.map": "/Portfolio-Ayush_Thakur/static/js/main.4f9aa621.chunk.js.map",
     "runtime-main.js": "/Portfolio-Ayush_Thakur/static/js/runtime-main.3877d77f.js",
@@ -8,7 +8,7 @@
     "static/js/2.d0ec7d84.chunk.js": "/Portfolio-Ayush_Thakur/static/js/2.d0ec7d84.chunk.js",
     "static/js/2.d0ec7d84.chunk.js.map": "/Portfolio-Ayush_Thakur/static/js/2.d0ec7d84.chunk.js.map",
     "index.html": "/Portfolio-Ayush_Thakur/index.html",
-    "static/css/main.b71ac8dd.chunk.css.map": "/Portfolio-Ayush_Thakur/static/css/main.b71ac8dd.chunk.css.map",
+    "static/css/main.668f8c8b.chunk.css.map": "/Portfolio-Ayush_Thakur/static/css/main.668f8c8b.chunk.css.map",
     "static/js/2.d0ec7d84.chunk.js.LICENSE.txt": "/Portfolio-Ayush_Thakur/static/js/2.d0ec7d84.chunk.js.LICENSE.txt",
     "static/media/contact.scss": "/Portfolio-Ayush_Thakur/static/media/contactMob.a5cf5dca.png",
     "static/media/logo.712cd029.png": "/Portfolio-Ayush_Thakur/static/media/logo.712cd029.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.3877d77f.js",
     "static/js/2.d0ec7d84.chunk.js",
-    "static/css/main.b71ac8dd.chunk.css",
+    "static/css/main.668f8c8b.chunk.css",
     "static/js/main.4f9aa621.chunk.js"
   ]
 }
